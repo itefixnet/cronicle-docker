@@ -3,6 +3,8 @@
 - Supports custom admin credentials/e-mail via a setup.json template file
 - Supports configuration customizations via a config.json file
 
+  Developed for [OpsBay](https://opsbay.com)
+
 
 ## Environment Variables
 
