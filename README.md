@@ -31,9 +31,10 @@ The entrypoint script validates and uses the following environment variables:
 ## Build
 
 For Cronicle vN.N.NN
+
 ```bash
 docker build --build-arg CRONICLE_VERSION=vN.N.NN -t my-cronicle:vN.N.NN .
-```bash
+```
 
 ## Usage
 
