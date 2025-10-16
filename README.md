@@ -38,6 +38,8 @@ For Cronicle vN.N.NN
 docker build --build-arg CRONICLE_VERSION=vN.N.NN -t my-cronicle:vN.N.NN .
 ```
 
+Ready-to-use Docker images are available at [Docker Hub](https://hub.docker.com/repository/docker/itefixnet/cronicle)
+
 ## Usage
 
 Set the required environment variables and run the container:
