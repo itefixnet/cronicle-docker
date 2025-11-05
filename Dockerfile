@@ -4,10 +4,10 @@ FROM node:18-alpine
 RUN apk add --no-cache curl tar bash procps
 
 # Install convenient tools
-RUN apk add --no-cache git jq openssh-client pass gpg
+RUN apk add --no-cache git jq openssh-client pass gpg openssl
 
 # Cronicle version
-ARG CRONICLE_VERSION=v0.9.97
+ARG CRONICLE_VERSION=v0.9.100
 ENV CRONICLE_VERSION=${CRONICLE_VERSION}
 
 # Set working directory
